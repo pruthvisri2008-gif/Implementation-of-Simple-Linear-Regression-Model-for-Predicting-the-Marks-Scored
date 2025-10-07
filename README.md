@@ -7,10 +7,13 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. The program begins by generating a random dataset with two features and corresponding binary labels based on a linear condition. A bias term (a column of ones) is added to the features, and the parameters (theta) are initialized to zeros for training the logistic regression model.
+
+2.The sigmoid function is defined as the hypothesis, which converts the linear combination of inputs into probabilities ranging between 0 and 1. This function is the core of logistic regression, allowing the model to separate two classes effectively.
+
+3.Gradient descent is applied iteratively for a fixed number of epochs. In each step, predictions are computed, gradients are calculated, and parameters are updated using the learning rate. This optimization process gradually reduces the error and improves model performance.
+
+4.After training, predictions are generated using the learned parameters, and accuracy is measured by comparing them with actual labels. Finally, the dataset and the decision boundary are plotted to visualize the classifier’s effectiveness. 
 
 ## Program:
 ```
