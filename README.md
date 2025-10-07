@@ -16,8 +16,8 @@ To write a program to predict the marks scored by a student using the simple lin
 ```
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
-Developed by: 
-RegisterNumber:  
+Developed by:Pruthvisri A 
+RegisterNumber:25013683
 */
 
 import pandas as pd
@@ -58,7 +58,6 @@ print(f"Predicted Marks for  {hours} hours of study = {predicted_marks[0]:.2f}")
 ```
 
 ## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
 ![alt text](<exp 2.png>)
 ![alt text](<exp 2 s-1.png>)
 
